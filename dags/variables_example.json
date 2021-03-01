@@ -1,0 +1,6 @@
+{
+  "prefix": "http://0.0.0.0:8001/api.dev.vn/crawls/v1",
+  "schedule_interval": "* * * * *",
+  "description": "auto-update-history-resolution-1-vn",
+  "dag_type": "auto-update-history-resolution-1-vn"
+}

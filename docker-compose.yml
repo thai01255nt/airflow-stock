@@ -1,0 +1,10 @@
+version: '3'
+services:
+  airflow-stock:
+    image: airflow-stock
+    ports:
+      - "8001:5000"
+  crawl-history-data-vn:
+    image: crawl-history-data-vn
+    ports:
+      - "8002:5000"

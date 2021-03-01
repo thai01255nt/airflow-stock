@@ -1,11 +1,11 @@
 #!/bin/bash
+pip install -r requirements.txt
 export AIRFLOW_HOME=pwd
 airflow db init
-cp -r dags pwd
 airflow users create \
-    --username admin \
-    -p admin \
-    --firstname Thai \
-    --lastname Dao \
-    --role Admin \
-    --email thai0125nt@gmail.com
+        --username admin \
+        -p admin \
+        --firstname thai \
+        --lastname dao \
+        --role Admin \
+        --email thai0125nt@gmail.com
